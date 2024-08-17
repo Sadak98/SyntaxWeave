@@ -1,0 +1,231 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff6f61; /* Vibrant coral color */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #ffc107 !important; /* Bright yellow on hover */
+}
+.navbar-toggler {
+    margin-left: auto;
+}
+
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #ff6f61, #f0ad4e); /* Colorful gradient */
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff6f61;
+    text-transform: uppercase;
+}
+
+/* About Section */
+.about img {
+    max-width: 100%;
+    border-radius: 50px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.about .btn-primary {
+    background-color: #28a745; /* Green for action button */
+}
+
+.about .btn-primary:hover {
+    background-color: #218838;
+}
+
+/* Completed Projects Section */
+.projects .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.projects .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.projects .card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.projects .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ff6f61;
+    font-weight: bold;
+}
+
+.projects .card-text {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Team Section */
+.team .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.team .card img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.team .card-body {
+    text-align: center;
+    padding: 20px;
+}
+
+.team .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.team .card-text {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.team .social-icons a {
+    color: #333;
+    font-size: 1.2em;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.team .social-icons a:hover {
+    color: #ff6f61;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6f61;
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 767.98px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1.2em;
+    }
+
+    .team .card img {
+        height: 100px;
+        width: 100px;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+}
